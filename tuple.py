@@ -1,0 +1,10 @@
+Tuple1 = (0,1,3,3,3,2,1,3) 
+print(Tuple1)
+res1 = Tuple1.count(3) 
+print('Count:', res1) 
+res3 = Tuple1.index(3) 
+Tuple2 = ('aaa', 'bbb', 'aaa','bbb','aaa') 
+print(Tuple2)
+res2 = Tuple2.count('aaa') 
+print('Count of aaa:', res2)
+

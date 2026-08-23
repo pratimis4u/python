@@ -1,0 +1,31 @@
+s1="abcdef"
+print(s1)
+print(s1.capitalize())
+print(s1.casefold())
+print(s1.center(20,'-'))
+print(s1.count("l"))
+print(s1.endswith("lo"))
+print(s1.startswith("he"))
+print(s1.find("e"))
+print(s1.index("a"))
+s4=input("enter a string: ")
+print(s4)
+print("islower:",s4.islower())
+print("istitle:",s4.istitle())
+print("isupper:",s4.isupper())
+print("isspace:",s4.isspace())
+print("swapcase:",s4.swapcase())
+print("title:",s4.title())
+print("upper:",s4.upper())
+print("lower:",s4.lower())
+s2=input("numeric string: ")
+s3=input("alpha numeric string: ")
+print("isdigit:",s2.isdigit())
+print("isdecimal:",s2.isdecimal())
+print("isnumeric:",s2.isnumeric())
+print("isalnum:",s3.isalnum())
+print("isalpha:",s1.isalpha())
+
+
+
+

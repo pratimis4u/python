@@ -1,0 +1,7 @@
+t1=(1,2,3,4,5)
+l1=list(t1)
+l1.append(input("Enter in tuple "))
+l1.append(input("Enter in tuple "))
+t=tuple(l1)
+print("Before adding elements",t1)
+print("After adding elements",t)
